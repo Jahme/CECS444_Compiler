@@ -8,5 +8,6 @@ Notes on each file:
 - token_resolver.py: Used to convert lexemes to tokens.
 - token_builder.py: Used to process character input from file to a format usable by the scanner and its tables.
 - rwords.txt: Reserved words text file. Necessary to be in same folder as scan.py.
+- hardtestcase.txt & big_test.txt: Provided test case files which can be used when running the executable by specifying the filepath.
 
 The screenshots of the logs for the scanner are found in the /logs/ folder.
