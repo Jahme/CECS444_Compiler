@@ -1,4 +1,5 @@
-Source and Log Files for the scanner are found in this folder.
+Source and Log Files for the scanner are found in this folder.\
+The requested FSAs are found in the /dfa/ folder.
 
 Notes on each file:
 - scan.py: Main executable for the scanner. Interface with program using a command line.
