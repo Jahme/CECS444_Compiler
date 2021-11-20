@@ -1,0 +1,117 @@
+SCAN: C:\Users\jchom\Documents\CSULB\Graduate\Fall 2021\CECS 444\Compiler Project\big_test.txt
+TOKEN:     comment - //First are the single operators
+TOKEN:       grave - `
+TOKEN:    lbracket - <
+TOKEN:    rbracket - >
+TOKEN:      lbrace - [
+TOKEN:      rbrace - ]
+TOKEN:      lsquig - {
+TOKEN:      rsquig - }
+TOKEN:          at - @
+TOKEN:   ampersand - &
+TOKEN:        hash - #
+TOKEN:        bang - !
+TOKEN:       tilde - ~
+TOKEN:      squote - '
+TOKEN:      dollar - $
+TOKEN:       colon - :
+TOKEN:   semicolon - ;
+TOKEN:      period - .
+TOKEN:       comma - ,
+TOKEN:        plus - +
+TOKEN:       minus - -
+TOKEN:       slash - /
+TOKEN:        star - *
+TOKEN:       equal - =
+TOKEN:       carat - ^
+TOKEN:      lparen - (
+TOKEN:      rparen - )
+TOKEN:     comment - /* Next are the compound operators */
+TOKEN:       ddash - --
+TOKEN:       dplus - ++
+TOKEN:   plusminus - +-
+TOKEN:   minusplus - -+
+TOKEN:   greatereq - >=
+TOKEN:      lesseq - <=
+TOKEN:       noteq - !=
+TOKEN:    spaceshp - <>
+TOKEN:        eqeq - ==
+TOKEN:     coloneq - :=
+TOKEN:       dless - <<
+TOKEN:     slasheq - /=
+TOKEN:       dbang - !!
+TOKEN:     comment - //IDs
+RESERVED WORD: this - IDENTIFIER
+RESERVED WORD: this - IDENTIFIER
+TOKEN:  identifier - will
+TOKEN:  identifier - had
+RESERVED WORD: this - IDENTIFIER
+TOKEN:  identifier - all
+TOKEN:  identifier - appear
+TOKEN:  identifier - appear
+TOKEN:  identifier - twice
+TOKEN:  identifier - appear
+TOKEN:  identifier - a
+TOKEN:  identifier - a
+TOKEN:  identifier - b
+TOKEN:  identifier - hal
+TOKEN:  identifier - a
+TOKEN:  identifier - a
+TOKEN:  identifier - a
+RESERVED WORD: this - IDENTIFIER
+TOKEN:  identifier - cool
+TOKEN:  identifier - had
+TOKEN:  identifier - good
+TOKEN:  identifier - times
+TOKEN:  identifier - were
+TOKEN:  identifier - had
+TOKEN:  identifier - all
+TOKEN:  identifier - around
+TOKEN:     comment - {*Integers*}
+TOKEN:      rsquig - 1
+TOKEN:     integer - 1234
+TOKEN:     integer - 1,234
+TOKEN:     integer - 1,234,567
+TOKEN:     integer - -123
+TOKEN:     integer - -1,234
+TOKEN:     comment - //Currency
+TOKEN:    currency - $555.55
+TOKEN:    currency - $1234.56
+TOKEN:    currency - $1,234.56
+TOKEN:     comment - /* Library Tokens */
+TOKEN:     library - #include"math.h"
+TOKEN:   semicolon - ;
+TOKEN:     library - #include"string.cpp"
+TOKEN:   semicolon - ;
+TOKEN:     library - #include<iostream.h>
+TOKEN:   semicolon - ;
+TOKEN:     comment - {* Fixed Point Numbers *}
+TOKEN:       fixed - 3.141
+TOKEN:       fixed - 777.
+TOKEN:       fixed - 3.14159
+TOKEN:       fixed - 1,234.567
+TOKEN:       fixed - 1,234.5678
+TOKEN:       fixed - 1,234.567,8
+TOKEN:     comment - // Scientific Notation
+TOKEN: scinotation - 3.3^+1
+TOKEN: scinotation - 3.14159^-1
+TOKEN: scinotation - 3.14159^+123
+TOKEN:     comment - // Device/File Tokens (begins with a reserved word)
+RESERVED WORD: read - IDENTIFIER
+TOKEN:        file - [A:file.txt]
+TOKEN:   semicolon - ;
+RESERVED WORD: write - IDENTIFIER
+TOKEN:        file - [A:file9.txt]
+TOKEN:   semicolon - ;
+TOKEN:     comment - /* String Literals */
+TOKEN:      string - "hey!!`"
+TOKEN:      string - "this should' not * break"
+TOKEN:     comment - /* This will
+be a *
+multi-line //
+comment * with
+stuff * that would
+break it if it /
+were coded differently
+*/
+TOKEN:     comment - {*This is the end comment*}

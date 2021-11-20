@@ -1,0 +1,144 @@
+SCAN: C:\Users\jchom\Documents\CSULB\Graduate\Fall 2021\CECS 444\Compiler Project\hardtestcase.txt
+TOKEN:     library - #include<math.h>
+TOKEN:     whspace - 
+TOKEN:     library - #include<string>
+TOKEN:     whspace - 
+TOKEN:     library - #include<iostream.h>
+TOKEN:     whspace - 
+TOKEN:     library - #include"mylib.h"
+TOKEN:     whspace - 
+TOKEN:     comment - //include library functions
+TOKEN:     comment - //using namespace std;
+RESERVED WORD: program - IDENTIFIER
+TOKEN:     whspace -  
+TOKEN:  identifier - test1
+TOKEN:   semicolon - ;
+TOKEN:     whspace - 
+RESERVED WORD: var - IDENTIFIER
+TOKEN:     whspace -     
+TOKEN:  identifier - arm
+TOKEN:       comma - ,
+TOKEN:  identifier - leg
+TOKEN:       colon - :
+TOKEN:  identifier - currency
+TOKEN:   semicolon - ;
+TOKEN:     whspace -   
+TOKEN:     comment - //currency
+TOKEN:     whspace -     
+TOKEN:  identifier - a
+TOKEN:       comma - ,
+TOKEN:  identifier - b
+TOKEN:       comma - ,
+TOKEN:  identifier - ab
+TOKEN:       colon - :
+RESERVED WORD: string - IDENTIFIER
+TOKEN:   semicolon - ;
+TOKEN:     whspace -      
+TOKEN:     comment - //string variables
+TOKEN:     whspace -     
+TOKEN:  identifier - c
+TOKEN:       comma - ,
+TOKEN:  identifier - d
+TOKEN:       comma - ,
+TOKEN:  identifier - cd
+TOKEN:       colon - :
+RESERVED WORD: int - IDENTIFIER
+TOKEN:   semicolon - ;
+TOKEN:     whspace -         
+TOKEN:     comment - //integer variables
+TOKEN:     whspace -     
+TOKEN:  identifier - e
+TOKEN:       comma - ,
+TOKEN:  identifier - goo
+TOKEN:       colon - :
+TOKEN:  identifier - real
+TOKEN:   semicolon - ;
+TOKEN:     whspace -         
+TOKEN:     comment - //float type
+TOKEN:     whspace - 
+RESERVED WORD: start - IDENTIFIER
+TOKEN:     whspace -  
+TOKEN:     comment - //start of the main code
+TOKEN:     whspace -     
+TOKEN:  identifier - a
+TOKEN:     coloneq - :=
+TOKEN:      string - "hello"
+TOKEN:   semicolon - ;
+TOKEN:     whspace -     
+TOKEN:  identifier - b
+TOKEN:     coloneq - :=
+TOKEN:      string - " world"
+TOKEN:   semicolon - ;
+TOKEN:     whspace -     
+TOKEN:  identifier - ab
+TOKEN:     coloneq - :=
+TOKEN:  identifier - a
+TOKEN:        plus - +
+TOKEN:  identifier - b
+TOKEN:   semicolon - ;
+TOKEN:     whspace -         
+TOKEN:     comment - /*merge strings*/
+TOKEN:     whspace -     
+TOKEN:  identifier - c
+TOKEN:     coloneq - :=
+TOKEN:     integer - 543
+TOKEN:   semicolon - ;
+TOKEN:     whspace -     
+TOKEN:  identifier - d
+TOKEN:     coloneq - :=
+TOKEN:     integer - 12,345
+TOKEN:   semicolon - ;
+TOKEN:     whspace -     
+TOKEN:  identifier - leg
+TOKEN:       equal - =
+TOKEN:    currency - $12,123.05
+TOKEN:   semicolon - ;
+TOKEN:     whspace -     
+TOKEN:  identifier - cd
+TOKEN:     coloneq - :=
+TOKEN:  identifier - c
+TOKEN:        plus - +
+TOKEN:  identifier - d
+TOKEN:   semicolon - ;
+TOKEN:     whspace -         
+TOKEN:     comment - /*add unsigned integers*/
+TOKEN:     whspace -     
+TOKEN:  identifier - e
+TOKEN:     coloneq - :=
+TOKEN:       fixed - 444,444.13
+TOKEN:   semicolon - ;
+TOKEN:     whspace -     
+TOKEN:  identifier - goo
+TOKEN:     coloneq - :=
+TOKEN:  identifier - c
+TOKEN:        plus - +
+TOKEN:  identifier - e
+TOKEN:   semicolon - ;
+TOKEN:     whspace -        
+TOKEN:     comment - /*add singed integers and reals */
+TOKEN:     whspace -     
+TOKEN:  identifier - scinot
+TOKEN:     coloneq - :=
+TOKEN: scinotation - 3.14^+2
+TOKEN:     whspace -     
+RESERVED WORD: read_from_device - IDENTIFIER
+TOKEN:        file - [A:file.test]
+TOKEN:   semicolon - ;
+TOKEN:     whspace -     
+RESERVED WORD: write_to_device - IDENTIFIER
+TOKEN:        file - [A:test]
+TOKEN:   semicolon - ;
+TOKEN:     whspace -     
+RESERVED WORD: return - IDENTIFIER
+TOKEN:     whspace -  
+TOKEN:      rsquig - 0
+TOKEN:   semicolon - ;
+TOKEN:     whspace - 
+RESERVED WORD: stop - IDENTIFIER
+TOKEN:     whspace -  
+TOKEN:     comment - //stop the program
+TOKEN:     whspace - 
+TOKEN:     comment - {* something
+more something
+even more..
+*}
