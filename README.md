@@ -1,5 +1,5 @@
 # CECS444_Compiler
-Fall 2021 CECS 444 @ CSULB Semester Project - Compiler: Scanner and Parser
+Fall 2021 CECS 444 @ CSULB Semester Project - Compiler: Scanner and Parser\Author: James Chomchan Gojit - CSULB
 
 ## Scanner
 Raw files from my local repository are organized in the /scanner/ folder.\
