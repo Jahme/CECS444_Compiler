@@ -1,0 +1,23 @@
+goal -> libtoken libtoken_tail start | start
+libtoken_tail -> libtoken libtoken_tail | LAMBDA
+libtoken -> library
+start -> code | LAMBDA
+code -> program id ; vars main end
+vars -> varr var_type : ptype ; var_type_tail
+var_type_tail -> var_type : ptype ; var_type_tail | LAMBDA
+var_type -> var var_tail
+var_tail -> , var var_tail | LAMBDA
+var -> id
+ptype -> int | sci | real | currency | string
+main -> begin statemt_list return int ;
+statemt_list -> statemt statemt_tail
+statemt_tail -> statemt statemt_tail | LAMBDA
+statemt -> id := exp ; | device_open file ; | for id := id to id do statemt_list endd do ; | repeat do statemt_list until ( bool ) endd do ; | while ( bool ) do statemt_list endd do ; | if ( bool ) then begin statemt_list endd ; else begin statemt_list endd ; | device_close file ; | read_from_device file ; | write_to_device file ; | writeln ( exp ) ; | readln ( var_type ) ;
+bool -> exp relational_op exp
+relational_op -> < | > | <= | >= | == | !=
+exp -> primary primary_tail | string
+primary_tail -> + primary primary_tail | - primary primary_tail | LAMBDA
+primary -> secondary sec_tail
+sec_tail -> * secondary sec_tail | / secondary sec_tail | LAMBDA
+secondary -> ( exp ) | id | int | real | sci | currency | abs ( exp ) | fabs ( exp )
+end -> stop
