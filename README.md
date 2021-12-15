@@ -8,7 +8,7 @@ Author: James Chomchan Gojit - CSULB
 [Scanner Class](/scanner/scan.py)\
 [Parser Logs](/parser/logs/Parser_Output.pdf)\
 [Predict Set](/parser/sets_and_tables/PredictSet.png)\
-[First and Follow Sets]((/parser/sets_and_tables/FirstSet_FollowSet.png)
+[First and Follow Sets](/parser/sets_and_tables/FirstSet_FollowSet.png)
 
 ## Scanner
 Raw files from my local repository are organized in the /scanner/ folder.\
