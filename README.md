@@ -9,5 +9,5 @@ Raw files from my local repository are organized in the /scanner/ folder.\
 
 ## Parser
 Raw files from my local repository are organized in the /parser/ folder.\
-The main runtime file [Runtime File](/parser/main.py) . This file is essentially a wrapper of the parse and scan classes.
+The main runtime file [Runtime File](main.py) . This file is essentially a wrapper of the parse and scan classes.
 You can find the standalone parser here: [Parser File](/parser/parse.py)
