@@ -1,0 +1,75 @@
+# James Chomchan Gojit, ID:015785846 - Token Builder
+# Converts characters into integers used to index the state, action, and lookup tables of the scanner.
+class TokenBuilder:
+    def build_token(input):
+        match input:
+            case '`':
+                return 0
+            case '<':
+                return 1
+            case '>':
+                return 2
+            case '[':
+                return 3
+            case ']':
+                return 4
+            case '{':
+                return 5
+            case '}':
+                return 6
+            case '@':
+                return 7
+            case '&':
+                return 8
+            case '#':
+                return 9
+            case '!':
+                return 10
+            case '~':
+                return 11
+            case "'":
+                return 12
+            case '"':
+                return 13
+            case '$':
+                return 14
+            case ':':
+                return 15
+            case ';':
+                return 16
+            case '.':
+                return 17
+            case ',':
+                return 18
+            case '+':
+                return 19
+            case '-':
+                return 20
+            case '/':
+                return 21
+            case '\\':
+                return 22
+            case '*':
+                return 23
+            case '=':
+                return 24
+            case '^':
+                return 25
+            case '(':
+                return 26
+            case ')':
+                return 27
+            case '_':
+                return 30
+            case ' ':
+                return 31
+            case '\n':
+                return 32
+        if input.isalpha():
+            return 28
+        elif input.isdigit():
+            return 29
+        else:
+            return 33
+
+
