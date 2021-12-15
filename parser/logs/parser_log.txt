@@ -1,0 +1,219 @@
+Fire 1
+Fire 5
+Match and Pop library
+Fire 3
+Fire 5
+Match and Pop library
+Fire 3
+Fire 5
+Match and Pop library
+Fire 3
+Fire 5
+Match and Pop library
+Fire 4
+Fire 6
+Fire 8
+Match and Pop program
+Match and Pop id
+Match and Pop ;
+Fire 9
+Match and Pop var
+Fire 12
+Fire 15
+Match and Pop id
+Fire 13
+Match and Pop ,
+Fire 15
+Match and Pop id
+Fire 14
+Match and Pop :
+Fire 19
+Match and Pop currency
+Match and Pop ;
+Fire 10
+Fire 12
+Fire 15
+Match and Pop id
+Fire 13
+Match and Pop ,
+Fire 15
+Match and Pop id
+Fire 13
+Match and Pop ,
+Fire 15
+Match and Pop id
+Fire 14
+Match and Pop :
+Fire 20
+Match and Pop string
+Match and Pop ;
+Fire 10
+Fire 12
+Fire 15
+Match and Pop id
+Fire 13
+Match and Pop ,
+Fire 15
+Match and Pop id
+Fire 13
+Match and Pop ,
+Fire 15
+Match and Pop id
+Fire 14
+Match and Pop :
+Fire 16
+Match and Pop int
+Match and Pop ;
+Fire 10
+Fire 12
+Fire 15
+Match and Pop id
+Fire 13
+Match and Pop ,
+Fire 15
+Match and Pop id
+Fire 14
+Match and Pop :
+Fire 18
+Match and Pop real
+Match and Pop ;
+Fire 11
+Fire 21
+Match and Pop begin
+Fire 22
+Fire 25
+Match and Pop id
+Match and Pop :=
+Fire 44
+Match and Pop string
+Match and Pop ;
+Fire 23
+Fire 25
+Match and Pop id
+Match and Pop :=
+Fire 44
+Match and Pop string
+Match and Pop ;
+Fire 23
+Fire 25
+Match and Pop id
+Match and Pop :=
+Fire 43
+Fire 48
+Fire 53
+Match and Pop id
+Fire 51
+Fire 45
+Match and Pop +
+Fire 48
+Fire 53
+Match and Pop id
+Fire 51
+Fire 47
+Match and Pop ;
+Fire 23
+Fire 25
+Match and Pop id
+Match and Pop :=
+Fire 43
+Fire 48
+Fire 54
+Match and Pop int
+Fire 51
+Fire 47
+Match and Pop ;
+Fire 23
+Fire 25
+Match and Pop id
+Match and Pop :=
+Fire 43
+Fire 48
+Fire 54
+Match and Pop int
+Fire 51
+Fire 47
+Match and Pop ;
+Fire 23
+Fire 25
+Match and Pop id
+Match and Pop =
+Fire 43
+Fire 48
+Fire 57
+Match and Pop currency
+Fire 51
+Fire 47
+Match and Pop ;
+Fire 23
+Fire 25
+Match and Pop id
+Match and Pop :=
+Fire 43
+Fire 48
+Fire 53
+Match and Pop id
+Fire 51
+Fire 45
+Match and Pop +
+Fire 48
+Fire 53
+Match and Pop id
+Fire 51
+Fire 47
+Match and Pop ;
+Fire 23
+Fire 25
+Match and Pop id
+Match and Pop :=
+Fire 43
+Fire 48
+Fire 55
+Match and Pop real
+Fire 51
+Fire 47
+Match and Pop ;
+Fire 23
+Fire 25
+Match and Pop id
+Match and Pop :=
+Fire 43
+Fire 48
+Fire 53
+Match and Pop id
+Fire 51
+Fire 45
+Match and Pop +
+Fire 48
+Fire 53
+Match and Pop id
+Fire 51
+Fire 47
+Match and Pop ;
+Fire 23
+Fire 25
+Match and Pop id
+Match and Pop :=
+Fire 43
+Fire 48
+Fire 56
+Match and Pop sci
+Fire 51
+Fire 47
+Match and Pop ;
+Fire 23
+Fire 32
+Match and Pop read_from_device
+Match and Pop file
+Match and Pop ;
+Fire 23
+Fire 33
+Match and Pop write_to_device
+Match and Pop file
+Match and Pop ;
+Fire 24
+Match and Pop return
+Match and Pop int
+Match and Pop ;
+Fire 60
+Match and Pop stop
+Goal
