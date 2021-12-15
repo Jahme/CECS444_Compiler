@@ -1,5 +1,6 @@
-Source, Tables, and Log Files for the parser are found in this folder.\
-The requested sets and tables are found in the /sets_tables/ folder.
+Sources and relevant program files for the parser are found in this folder.\
+The requested sets and tables are found in the /sets_tables/ folder.\
+Images and documentation relevant to the logs of the parser are found in the /logs/ folder.
 
 Notes on each file:
 - parse.py: Main class for the parser. Called from main wrapper found in top directory.
