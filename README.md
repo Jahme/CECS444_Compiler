@@ -23,7 +23,7 @@ You can find the standalone parser here: [Parser File](/parser/parse.py)
 
 ## Notes
 In regard to the [grammar](grammar.txt) provided, some changes were made to clarify understanding of how the program should be interpreted. 
-- The original non-terminal production "end -> stop" and the "end" found in the loops of production "statement -> ..." were a bit confusing. The changes made were made under the belief that the "end" found in the loops were the reserved word "end".\
-- The production "code -> program" conflicted with the start production "program -> libtoken ...". As such, the starting production was renamed to "goal" under observation of the original grammar found in the instructor's repository.\
+- The original non-terminal production "end -> stop" and the "end" found in the loops of production "statement -> ..." were a bit confusing. The changes made were made under the belief that the "end" found in the loops were the reserved word "end".
+- The production "code -> program" conflicted with the start production "program -> libtoken ...". As such, the starting production was renamed to "goal" under observation of the original grammar found in the instructor's repository.
 - The production "var -> id" and the FIRST(vars) = var could have resolved just fine. Through observation of the [test case](hardtestcase.txt), it is believed that the var found in the "vars ->" production is a reserved word, and is thus included as a terminal character.
 - I should probably create a test case implementing the loops of the grammar.
