@@ -6,8 +6,9 @@ Author: James Chomchan Gojit - CSULB
 [Runtime File](main.py)\
 [Parser Class](/parser/parse.py)\
 [Scanner Class](/scanner/scan.py)\
-[Parser Logs](/parser/logs/Parser_Output.pdf)
-[Tables](/parser/sets_and_tables/)
+[Parser Logs](/parser/logs/Parser_Output.pdf)\
+[Predict Set](/parser/sets_and_tables/PredictSet.png)\
+[First and Follow Sets]((/parser/sets_and_tables/FirstSet_FollowSet.png)
 
 ## Scanner
 Raw files from my local repository are organized in the /scanner/ folder.\
