@@ -3,8 +3,10 @@ Fall 2021 CECS 444 @ CSULB Semester Project - Compiler: Scanner and Parser\
 Author: James Chomchan Gojit - CSULB
 
 ## Quick Access
-[Runtime File](main.py)
-[Parser Class](/parser/parse.py)
+[Runtime File](main.py)\
+[Parser Class](/parser/parse.py)\
+[Scanner Class](/scanner/scan.py)\
+[Parser Logs](/parser/logs/Parser_Output.pdf)\
 
 ## Scanner
 Raw files from my local repository are organized in the /scanner/ folder.\
