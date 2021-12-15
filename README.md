@@ -6,7 +6,8 @@ Author: James Chomchan Gojit - CSULB
 [Runtime File](main.py)\
 [Parser Class](/parser/parse.py)\
 [Scanner Class](/scanner/scan.py)\
-[Parser Logs](/parser/logs/Parser_Output.pdf)\
+[Parser Logs](/parser/logs/Parser_Output.pdf)
+[Tables](/parser/sets_and_tables/)
 
 ## Scanner
 Raw files from my local repository are organized in the /scanner/ folder.\
